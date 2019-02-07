@@ -1,0 +1,31 @@
+.gradle
+/build/
+/bin/
+
+resources/invoice-groovy-raw.docx
+resources/SQL-Example-raw.docx
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.propertiesa
+
+# Ignore eclipse files
+.classpath
+.project
+.settings
+
+# Ignore IntelliJ files
+.idea
+
+# Ignore open office temp files
+.~lock.*
+
+mariadb*
